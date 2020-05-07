@@ -1,0 +1,19 @@
+{
+  "name": "marriage-contract",
+  "version": "1.0.0",
+  "description": "Smart Contract & Interaction",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.34",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "styp152@gmail.com",
+  "license": "MIT"
+}
