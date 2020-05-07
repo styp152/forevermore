@@ -26,11 +26,15 @@ Prerequisite: [set up Metamask](https://www.cryptokitties.co/faq#Installing-Meta
 
 Install project dependencies:
 
-    $ npm install
+```
+$ npm install
+```
 
 Start the app
 
-    $ npm run dev
+```
+$ npm run dev
+```
 
 
 ### New Contracts
@@ -42,22 +46,30 @@ Prerequisite:
 
 CD into Ethereum directory, then run:
 
-  $ npm install
+```
+$ npm install
+```
 
 Create an .env file with these two variable INFURA_API_KEY and MNENOMIC
 
-  $ truffle compile
+```
+$ truffle compile
+```
 
 After that you can choice what network (`ropsten`, `kovan`, `rinkeby`, `main`)  you can send the contract
 
-  $ truffle migrate --network choice
+```
+$ truffle migrate --network $CHOICE
+```
 
 ### Old Contracts
 
 **To compile your own contracts:**
 CD into Ethereum directory, then run:
 
-    $ node compile.js
+```
+$ node compile.js
+```
 
 **To deploy your own contracts:**
 

@@ -6,7 +6,7 @@ Smart contract to get marriage on the blockchain!
 Simply download the required packages from the client folder.
 
 ```
-npm install
+$ npm install
 ```
 
 The contracts folder keeps a copy of the contract in Solidity. The migrations folder keeps Truffle deployment files.
@@ -15,7 +15,7 @@ The contracts folder keeps a copy of the contract in Solidity. The migrations fo
 You must download Truffle in order to compile and migrate updated contracts.
 
 ```
-npm install -g truffle
+$ npm install -g truffle
 ```
 
 The Ganache GUI was also used during the development process -> Ganache
@@ -26,8 +26,12 @@ Prerequisite: [create an Infura Account](https://infura.io/register)
 
 Create an .env file with these two variable INFURA_API_KEY and MNENOMIC
 
-  $ truffle compile
+```
+$ truffle compile
+```
 
 After that you can choice what network (`ropsten`, `kovan`, `rinkeby`, `main`)  you can send the contract
 
-  $ truffle migrate --network choice
+```
+$ truffle migrate --network choice
+```
